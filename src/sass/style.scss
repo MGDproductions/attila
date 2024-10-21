@@ -1814,6 +1814,10 @@ textarea {
 	margin: 0 0 4rem;
 	font-size: 4em;
 	line-height: 1.25em;
+
+	@media only screen and (max-width: $breakpoint-small) {
+		font-size:3em;
+	}
 }
 
 .has-cover .post-title {
