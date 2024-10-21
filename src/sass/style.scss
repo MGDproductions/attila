@@ -1799,6 +1799,10 @@ textarea {
 	text-indent: -1px;
 	color: var(--color-content-lead);
 
+	@media only screen and (max-width: $breakpoint-small) {
+		font-size:3em;
+	}
+
 	a {
 		text-decoration: none;
 		color: inherit;
